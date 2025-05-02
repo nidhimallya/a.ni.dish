@@ -1,0 +1,16 @@
+[
+  {
+    "name": "Aloo Paratha",
+    "mealType": "Breakfast",
+    "ingredients": ["Potato", "Wheat", "Spices"],
+    "instructions": "Mix mashed potatoes with spices, stuff into dough, and cook on a tawa.",
+    "image": "https://example.com/aloo-paratha.jpg"
+  },
+  {
+    "name": "Palak Paneer",
+    "mealType": "Lunch",
+    "ingredients": ["Spinach", "Paneer", "Spices"],
+    "instructions": "Cook spinach with spices and blend. Add paneer and simmer.",
+    "image": "https://example.com/palak-paneer.jpg"
+  }
+]

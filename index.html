@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Recipe Book</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script defer src="script.js"></script>
+</head>
+<body class="bg-pink-50 font-sans text-gray-800">
+  <div class="max-w-5xl mx-auto p-4">
+    <h1 class="text-4xl font-bold text-center text-pink-600 mb-6">My Recipe Book</h1>
+    <div class="flex flex-wrap gap-4 justify-center mb-6">
+      <select id="mealTypeFilter" class="p-2 rounded-lg border">
+        <option value="">All Meal Types</option>
+        <option value="Breakfast">Breakfast</option>
+        <option value="Lunch">Lunch</option>
+        <option value="Dinner">Dinner</option>
+      </select>
+      <select id="ingredientFilter" class="p-2 rounded-lg border">
+        <option value="">All Ingredients</option>
+      </select>
+      <input id="searchInput" type="text" placeholder="Search recipe..." class="p-2 rounded-lg border w-60" />
+    </div>
+    <div id="recipeGrid" class="grid gap-6 sm:grid-cols-2 md:grid-cols-3"></div>
+  </div>
+</body>
+</html>
